@@ -13,4 +13,4 @@ COPY dummy /src/dummy
 ENV PYTHONPATH=$PWD:$PYTHONPATH
 
 EXPOSE 8000
-ENTRYPOINT ["uvicorn", "dummy.main:app", "--host", "0.0.0.0", "--port", "8000"]
+ENTRYPOINT ["uvicorn", "dummy.main:app", "--host", "0.0.0.0", "--port", "8011"]
